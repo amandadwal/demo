@@ -1,0 +1,170 @@
+---
+#-------------------------------
+# General Site Settings
+
+title: AK
+logo:
+author: AK
+description: ak description
+copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+
+menu:
+  - { name: "Portfolio", link: "/portfolio" }
+  - { name: "Blog", link: "/blog" }
+  - { name: "Resources", link: "/resources" }
+  - { name: "Interests", link: "/interests" }
+  - { name: "Resumé", link: "/resume" }
+  - { name: "About Me", link: "/about" }
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Hi! I’m <br> Aman <br> Kumar
+
+social:
+  - { icon: "ti-facebook", link: "#" }
+  - { icon: "ti-instagram", link: "#" }
+  - { icon: "ti-dribbble", link: "#" }
+  - { icon: "ti-twitter", link: "#" }
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb: Hello! I’m Aman, and I’m currently pursuing a degree in Astrophysics. This site will serve as a portfolio to document my journey as a student, including my progress, various projects, research and achievements.
+
+blurb-btn-link: "/about"
+blurb-btn-name: know more
+
+# About Page
+
+#-------------------------------
+# Skills Section
+
+skills-title: Skills
+skills:
+  - { name: Tableau, color: "#fdb157" }
+  - { name: Python, color: "#9473e6" }
+  - { name: SPSS, color: "#bdecf6" }
+  - { name: MySQL, color: "#ffbcaa" }
+
+#-------------------------------
+# Education Section
+
+education-title: Education
+education:
+  - {
+      name: Business Analytics with SQL and Python,
+      date: "2024",
+      organization: "RMIT, Australia",
+    }
+  - {
+      name: Business Analytics and Visualisation,
+      date: "2024",
+      organization: "RMIT, Australia",
+    }
+  - {
+      name: MSc Astrophysics,
+      date: "Ongoing",
+      organization: "USQ, Australia",
+    }
+  - {
+      name: BSc. (Hons) in Astronomy and Planetary science,
+      date: "2021",
+      organization: "OU, United Kingdom",
+    }
+
+#-------------------------------
+# Portfolio (Section and Page)
+
+# Portfolio Home Section
+portfolio-home-items:
+  - image: "assets/images/portfolio/item-1.png"
+    url: "#"
+
+  - image: "assets/images/portfolio/item-2.png"
+    url: "#"
+
+  - image: "assets/images/portfolio/item-3.png"
+    url: "#"
+
+  - image: "assets/images/portfolio/item-4.png"
+    url: "#"
+
+  - image: "assets/images/portfolio/item-5.png"
+    url: "#"
+
+# Portfolio Page
+portfolio-label:
+  - { title: "UI/UX Design", type: "design" }
+  - { title: "BRANDING", type: "branding" }
+  - { title: "ILLUSTRATION", type: "illustration" }
+
+portfolio-items:
+  - image: "assets/images/portfolio/item-1.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      - type: "illustration"
+
+  - image: "assets/images/portfolio/item-2.png"
+    url: "#"
+    portfolio-type:
+      - type: "branding"
+
+  - image: "assets/images/portfolio/item-3.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+  - image: "assets/images/portfolio/item-6.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      - type: "branding"
+
+  - image: "assets/images/portfolio/item-8.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+  - image: "assets/images/portfolio/item-5.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+
+  - image: "assets/images/portfolio/item-1.png"
+    url: "#"
+    portfolio-type:
+      - type: "branding"
+
+  - image: "assets/images/portfolio/item-3.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      - type: "illustration"
+      - type: "branding"
+
+  - image: "assets/images/portfolio/item-7.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+#-------------------------------
